@@ -2,22 +2,22 @@
 
 /**
 *_abs - computes absolute value of an integer
-*@n: integer value it takes as argument
+*@int: data type and integer it takes as argument
 *Return: 0
 */
 int _abs(int)
 {
-	if (n > 48)
+	if (int > 48)
 	{
-		_putchar(n);
+		_putchar(int);
 	}
-	else if (n == 0)
+	else if (int == 0)
 	{
-		_putchar(n);
+		_putchar(int);
 	}
 	else
 	{
-		_putchar(n);
+		_putchar(int);
 	}
 	_putchar('\n');
 }
