@@ -5,19 +5,19 @@
 *@int: data type and integer it takes as argument
 *Return: 0
 */
-int _abs(int)
+int _abs(int i)
 {
-	if (int > 48)
+	if (i > 48)
 	{
-		_putchar(int);
+		_putchar(i);
 	}
-	else if (int == 0)
+	else if (i == 0)
 	{
-		_putchar(int);
+		_putchar(i);
 	}
 	else
 	{
-		_putchar(int);
+		_putchar(i);
 	}
 	_putchar('\n');
 }
