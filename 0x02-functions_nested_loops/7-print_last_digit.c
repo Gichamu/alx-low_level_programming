@@ -2,10 +2,20 @@
 
 /**
 *print_last_digit - prints last digit of an integer
-*@i: integer assine
-*Return: 0
+*@i: the input integer
+*Return: last digit of the number
 */
-int print_last_digit(int i)
+int print_last_digit(int l)
 {
-	return (i % 10);
+	int lastdigit;
+	int l = lastdigit % 10;
+
+	if (l < 0)
+	{
+		_putchar(l + 48);
+	}
+	else
+	{
+		_putchar(l + 48);
+	}
 }

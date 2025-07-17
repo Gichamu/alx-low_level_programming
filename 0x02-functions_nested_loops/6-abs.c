@@ -2,7 +2,6 @@
 
 /**
 *_abs - computes absolute value of an integer
-*@int: data type and integer it takes as argument
 *@i: integer input
 *Return: 0
 */
