@@ -3,21 +3,17 @@
 /**
 *_abs - computes absolute value of an integer
 *@int: data type and integer it takes as argument
+*@i: integer input
 *Return: 0
 */
 int _abs(int i)
-{
-	if (i > 48)
+}
+	if (i >= 0)
 	{
-		_putchar(i);
-	}
-	else if (i == 0)
-	{
-		_putchar(i);
+		return (1);
 	}
 	else
-	{
-		_putchar(i);
-	}
-	_putchar('\n');
+	(
+		return (i * -1);
+	)
 }
