@@ -13,7 +13,7 @@ int main(void)
 	{
 		putchar(a);
 	}
-	for (b = 0x41; b <= 0x46; b++)
+	for (b = 0x61; b <= 0x66; b++)
 	{
 		putchar(b);
 	}
