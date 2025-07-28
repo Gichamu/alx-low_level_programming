@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
 *main - entry point
 *
@@ -6,13 +7,12 @@
 */
 int main(void)
 {
-	int i;
+	int a;
 
-	for (i = 97; i <= 122; i++)
+	for (a = 0; a <= 9; a++)
 	{
-		if (i != 101 && i != 113)
-		putchar(i);
+		printf ("%d", a);
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
