@@ -8,16 +8,16 @@
 */
 char *_strcat(char *dest, char *src)
 {
-	int i = 0, l1, l2, count = 0, count2 = 0;
+	int i = 0,j = 0, l1, l2, count = 0, count2 = 0;
 
 	while (dest[i] != '\0')
 	{
 		i++;
 		count++;
 	}
-	while (src[i] != '\0')
+	while (src[j] != '\0')
 	{
-		i++;
+		j++;
 		count2++;
 	}
 	l1 = count;
@@ -26,6 +26,5 @@ char *_strcat(char *dest, char *src)
 	{
 		dest[l1 + i] = src[i];
 	}
-	_putchar('\n');
 	return (dest);
 }
